@@ -3,26 +3,29 @@ body{
   background: rgb(18,16,50);
   color: rgb(231,223,255);
   font-size: 12px;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
+  text-align : center;
 }
 h1{
-  font-family: font-family: 'Archivo', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #C758EA;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 22px;
   text-shadow : 2px 2px #412CAA;
+  text-align : center;
 }
 h2 {
-  font-family: font-family: 'Archivo', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #C758EA;
   font-weight: bolder;
   font-size: 18px;
 }
 h3 {
-  font-family: font-family: 'Stalinist One', cursive;;
+  font-family: 'Stalinist One', cursive;
   color: purple;
   font-weight: bolder;
   font-size: 18px;
+
 }
 a {
   color: purple;
@@ -30,4 +33,32 @@ a {
 a:hover {
   text-decoration: yes;
   color: purple;
+}
+.grand1{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1{
+  border: 10px solid #E7DFFF;
+  width: 310px;
+  height:400px;
+  background: rgb(18,16,50);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 10px ;
+  float: left;
+}
+.box2{
+  border: 10px solid #E7DFFF;
+  background: rgb(18,16,50);
+  width: 600px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
 }
